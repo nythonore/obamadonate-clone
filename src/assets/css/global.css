@@ -1,0 +1,22 @@
+body {
+    width: 100%;
+    height: auto;
+    font-family: lato, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+	text-decoration-color: none;
+	border: none;
+	outline: none;
+	color: #2199e8 !important;
+	transition: all 0.6s ease !important;
+}
+
+a:hover, a:active, a:focus {
+	transition: all 0.6s ease !important;
+	text-decoration: none;
+}

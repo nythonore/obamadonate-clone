@@ -1,0 +1,197 @@
+.hero__welcome {
+  min-height: 65vh;
+  background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url('../assets/images/obama-wallpaper.webp') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.hero__welcome h2 {
+  font-size: 62px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 60px;
+}
+
+.hero__welcome .btn,
+.hero__welcome .btn:hover,
+.hero__welcome .btn:active,
+.hero__welcome .btn:focus {
+  background: #2a2970;
+  border: 2px solid #2a2970;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 5px;
+  padding: .9375rem 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 780px) {
+  .hero__welcome h2 {
+    font-size: 42px;
+    line-height: 40px;
+  }
+
+  .hero__welcome .btn {
+    display: block;
+    width: 100%;
+  }
+}
+
+.intro__welcome h2 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.intro__welcome p {
+  color: #3c3c3c;
+  font-size: 23px;
+  font-weight: 200;
+  line-height: 1.4;
+}
+
+.info__welcome p {
+  color: #3c3c3c;
+  font-size: 17px;
+  font-weight: 200;
+  line-height: 1.7;
+}
+
+.special__home .plan-box {
+  background: #f0f0f0;
+  color: #000000;
+  cursor: pointer;
+}
+
+.special__home span {
+  color: #3c3c3c;
+  font-weight: 200;
+  display: block;
+}
+
+.special__home img.amount {
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.special__home img.image {
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.footer__home img {
+  object-fit: cover;
+}
+
+.gift__home h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.gift__home .plans-btn .btn,
+.gift__home .plans-btn .btn:hover,
+.gift__home .plans-btn .btn:active,
+.gift__home .plans-btn .btn:focus {
+  height: 55px;
+  background: #6bb8ab;
+  border: 2px solid #6bb8ab;
+  font-weight: 700;
+  font-size: 18px;
+  outline: none;
+  box-shadow: none;
+}
+
+.gift__home .form-control.amount,
+.gift__home .form-control.amount:hover,
+.gift__home .form-control.amount:active,
+.gift__home .form-control.amount:focus {
+  border: .0625rem solid #afafaf;
+  border-radius: 0;
+  height: 40px;
+  font-size: 14px;
+  outline: none;
+  box-shadow: none;
+}
+
+.gift__home .btn.donate,
+.gift__home .btn.donate:hover,
+.gift__home .btn.donate:active,
+.gift__home .btn.donate:focus {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: #2a2970;
+  border: 2px solid #2a2970;
+  height: 45px;
+  outline: none;
+  box-shadow: none;
+}
+
+.hero_banner {
+  min-height: 25vh;
+  background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url('../assets//images/obama-payment.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.payment_info__payment p {
+  margin: 0;
+  font-size: 14px;
+  color: #4b4b4b !important;
+}
+
+.payment_info__payment p.title {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000 !important;
+}
+
+.payment_info__payment p.total_txt {
+  font-size: 21px;
+  color: #000000 !important;
+}
+
+.payment_info__payment p.total_amount {
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000 !important;
+}
+
+.payment_form__payment .bottom p {
+  font-size: 14px;
+  color: #4b4b4b !important;
+}
+
+.payment_form__payment .form .form-control {
+  border-radius: 0;
+  height: 40px;
+  font-size: 14px;
+  outline: none;
+  box-shadow: none;
+  height: 45px;
+  margin-bottom: 20px;
+}
+
+.payment_form__payment .form .form-select {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.payment_form__payment .form .btn {
+  height: 50px;
+  background: #6bb8ab;
+  border: 2px solid #6bb8ab;
+  font-weight: 700;
+  font-size: 18px;
+  outline: none;
+  box-shadow: none;
+}
