@@ -20,3 +20,21 @@ a:hover, a:active, a:focus {
 	transition: all 0.6s ease !important;
 	text-decoration: none;
 }
+
+.web-view {
+    display: block;
+}
+
+.mobile-view {
+    display: none;
+}
+
+@media only screen and (max-width: 580px) {
+    .web-view {
+        display: none;
+    }
+
+    .mobile-view {
+        display: block;
+    }
+}

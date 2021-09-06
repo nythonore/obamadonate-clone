@@ -62,7 +62,7 @@ const PaymentForm = () => {
           </Row>
 
           <Row>
-            <Col md={6}>
+            <Col md={6} className='mb-4'>
               <Form.Select>
                 <option>Country / Region</option>
 

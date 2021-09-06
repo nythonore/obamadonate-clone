@@ -1,0 +1,10 @@
+version: "3.8"
+
+services: 
+  app:
+    container_name: obamadonate-prod
+    image: obamadonate-prod
+    build: 
+      context: .
+      target: production
+      dockerfile: ./Dockerfile.prod

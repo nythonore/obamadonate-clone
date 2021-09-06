@@ -19,7 +19,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "docker-compose -f docker-compose.yml up"
+    "docker-dev": "docker-compose -f docker-compose.dev.yml up",
+    "docker-prod": "docker-compose -f docker-compose.prod.yml build",
+    "docker-prod-run": "docker run -p 80:80 --name obamadonate-prod obamadonate-prod"
   },
   "eslintConfig": {
     "extends": [

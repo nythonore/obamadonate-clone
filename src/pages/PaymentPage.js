@@ -18,11 +18,19 @@ const PaymentPage = () => {
           <Col md={10}>
             <Row>
               <Col md={7}>
+                <div className='mobile-view'>
+                  <Col md={12}>
+                    <PaymentInfo />
+                  </Col>
+                </div>
+
                 <PaymentForm />
               </Col>
 
               <Col md={5}>
-                <PaymentInfo />
+                <div className='web-view'>
+                  <PaymentInfo />
+                </div>
               </Col>
             </Row>
           </Col>
