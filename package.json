@@ -1,7 +1,19 @@
 {
-  "name": "obama-donate",
-  "version": "0.1.0",
+  "name": "obama-donate-clone",
+  "description": "Obama donate (landing page and payment page) UI in reactjs and bootstrap",
+  "version": "1.0.0",
   "private": true,
+  "keywords": ["reactjs", "bootstrap", "nginx", "docker"],
+  "author": {
+    "name": "Honore Niyitegeka",
+    "email": "niyitegekah@gmail.com",
+    "url": "https://nythonore.me/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nythonore/obama-donate-clone.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
