@@ -1,7 +1,7 @@
 # Obama Donate Clone UI
 
-This repository contains code for Obama Donate (landing page and payment page) UI in React JS and Bootstrap.\
-view demo: https://obamadonate.nythonore.me
+This repository contains code for Obama Donate (landing page and payment page) UI in ReactJS and Bootstrap.\
+view demo: https://works.nythonore.me/obamadonate
 
 ### Prerequisites
 Make sure you have already installed Docker Engine. You don’t need to install Nginx or YARN, as both are provided by Docker images.
@@ -32,7 +32,7 @@ $ docker run -p 80:80 --name nythonore-prod nythonore-prod
 Go to [http://localhost](http://localhost)
 
 ### Built With
-* [React JS](https://reactjs.org/) - Front-end Framework
+* [ReactJS](https://reactjs.org/) - Front-end Framework
 * [React Bootstrap](https://react-bootstrap.github.io/) - CSS Framework
 * [Nginx](https://nginx.org/en/) - Web Server
 * [Docker](https://www.docker.com/) - Containerization

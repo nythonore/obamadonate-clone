@@ -2,6 +2,7 @@
   "name": "obama-donate-clone",
   "description": "Obama Donate (landing page and payment page) UI in React JS and Bootstrap",
   "version": "1.0.0",
+  "homepage": "http://localhost/obamadonate",
   "private": true,
   "keywords": ["reactjs", "bootstrap", "nginx", "docker"],
   "author": {
