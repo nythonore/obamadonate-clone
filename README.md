@@ -3,6 +3,8 @@
 This repository contains code for Obama Donate (landing page and payment page) UI in ReactJS and Bootstrap.\
 view demo: https://works.nythonore.me/obamadonate
 
+![alt text](https://nythonore.me/work/obamadonate.png)
+
 ### Prerequisites
 Make sure you have already installed Docker Engine. You don’t need to install Nginx or YARN, as both are provided by Docker images.
 
