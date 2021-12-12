@@ -5,7 +5,7 @@ import PaymentPage from "./pages/PaymentPage";
 
 const App = () => {
   return (
-    <BrowserRouter basename="/obamadonate">
+    <BrowserRouter>
       <Switch>
         <Route exact path='/' component={HomePage} />
         <Route exact path='/payment' component={PaymentPage} />

@@ -1,7 +1,6 @@
 {
   "short_name": "Obama Donate Clone UI",
   "name": "Obama Donate Clone UI",
-  "start_url": "./obamadonate",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

@@ -1,8 +1,7 @@
 {
-  "name": "obama-donate-clone",
+  "name": "obamadonate-clone",
   "description": "Obama Donate (landing page and payment page) UI in React JS and Bootstrap",
   "version": "1.0.0",
-  "homepage": "http://localhost/obamadonate",
   "private": true,
   "keywords": ["reactjs", "bootstrap", "nginx", "docker"],
   "author": {
@@ -12,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nythonore/obama-donate-clone.git"
+    "url": "https://github.com/nythonore/obamadonate-clone.git"
   },
   "license": "MIT",
   "dependencies": {
