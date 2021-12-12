@@ -1,7 +1,7 @@
 # Obama Donate Clone UI
 
 This repository contains code for Obama Donate (landing page and payment page) UI in ReactJS and Bootstrap.\
-view demo: https://works.nythonore.me/obamadonate
+view demo: https://obamadonate.nythonore.me
 
 ![alt text](https://nythonore.me/work/obamadonate.png)
 
@@ -28,10 +28,10 @@ $ docker-compose -f docker-compose.prod.yml build
 ```
 
 ```
-$ docker run -p 80:80 --name nythonore-prod nythonore-prod
+$ docker run -p 3000:80 --name obamadonate-prod obamadonate-prod
 ```
 
-Go to [http://localhost](http://localhost)
+Go to [http://localhost:3000](http://localhost:3000)
 
 ### Built With
 * [ReactJS](https://reactjs.org/) - Front-end Framework
