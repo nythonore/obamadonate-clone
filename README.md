@@ -16,11 +16,11 @@ Docker version 20.10.7, build f0df350
 ### Installing
 
 ```
-$ git clone https://github.com/nythonore/obama-donate-clone.git
+$ git clone https://github.com/nythonore/obamadonate-clone.git
 ```
 
 ```
-$ cd nythonore-web
+$ cd obamadonate-clone
 ```
 
 ```
